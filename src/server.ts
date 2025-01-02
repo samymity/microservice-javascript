@@ -24,7 +24,7 @@ app.post('/hello', (req, res) => {
     }
 });
 
-// Start the server
+// Start the servers
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
 });
