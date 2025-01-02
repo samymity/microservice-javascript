@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Hello function
 function hello(a: string): string {
-    return a;
+    return "Hello: " + a;
 }
 
 // Endpoint to receive a string and return it
